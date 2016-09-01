@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Eightfold Way"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Daniel Sank"
+description              : "Technical notes, food, and a few undersea friends"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -227,3 +227,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
