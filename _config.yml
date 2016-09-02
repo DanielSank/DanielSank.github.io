@@ -80,7 +80,7 @@ author:
   name             : "Daniel Sank"
   avatar           : "me.jpg"
   bio              : "Physics, food, code, and a bit of music."
-  location         : "Somewhere"
+  location         :
   email            :
   uri              :
   bitbucket        :
@@ -98,6 +98,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    :
+  physicsstackexchange : "31790"
   steam            :
   tumblr           :
   twitter          :
