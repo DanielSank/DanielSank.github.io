@@ -8,7 +8,7 @@ I've avoided writing a public journal<sup>1</sup> because I generally think it m
 For example, I'm usually more interested in Stack Overflow posts regarding a particular code pattern as opposed to posts written by turb0c0der733t.
 I put my detailed math and physics notes in a [github repo](https://github.com/DanielSank/theory), and more Q&A style writeups on [Physics Stack Exchange](http://physics.stackexchange.com/users/31790/danielsank?tab=profile).
 However, occasionally I suppose a person has something useful or interesting to write down which doesn't quite fit into one of those formal settings, or which is of a more personal nature and so *should* be organized by author.
-Well, at least I feel that way some times, so I figured I'd make a blog.
+Well, at least I feel that way some times, so I figured I'd write a public journal.
 Also, Bernardo told me to do it.
 
 ## What is this?
