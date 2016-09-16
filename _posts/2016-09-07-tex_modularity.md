@@ -434,7 +434,7 @@ This chapter is about horses.
 ```
 
 All we have to do now is figure out how to write the `\subimportlevel` macro, and put it in `macros.tex`.
-Here's a speudocode outline
+Here's a pseudocode outline
 
 ```latex
 \newcommand{\subimportlevel}[2]{ % arguments are dir, file
