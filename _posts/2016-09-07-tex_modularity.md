@@ -1,5 +1,5 @@
 ---
-title: How to make LaTeX awesomer
+title: Modularity in LaTeX
 header:
   image: header.png
 ---
