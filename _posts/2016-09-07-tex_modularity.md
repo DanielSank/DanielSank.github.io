@@ -371,8 +371,8 @@ In other words, because the `currentlevel` counter is global (like all LaTeX cou
 
 ## Fix `coseoul`: our own macro
 
-Now we come to the final part of this journal entry in which we add the feature `coseoul` lacks and acheive LaTeX nirvanna.
-We want a macro that allows us to import an entire document fragment all at once without having to write multiple versios of the headig structure and without having to worry about the value of a counter before and after the imported section.
+Now we come to the final part of this journal entry in which we add the feature `coseoul` lacks and achieve LaTeX nirvanna.
+We want a macro that allows us to import an entire document fragment all at once without having to write multiple versions of the heading structure and without having to worry about the value of a counter before and after the imported section.
 Let's name this hypothetical macro  `\subimportlevel{dir}{file}` where the `dir` and `file` arguments are exactly the same ones as we woud pass to `\subimport*`.
 We want `\subimportlevel` to work like this ([example H][8]):
 
