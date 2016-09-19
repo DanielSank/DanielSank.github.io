@@ -44,7 +44,7 @@ It's too bad this book doesn't go a *little* farther in terms of mathematics bec
 
 Prior to taking statistical and thermal physics in my junior year, I was sure I wouldn't like it.
 Ever since high school I had a sort of prejudice against statistics as a math subject, and I was particularly annoyed by the idea of studying physics in a case where one couldn't simply solve for the trajectories of all particles in the system given enough effort.
-Recognizing that I had these feelings, I thought I wouldn't do well in statistical physics and was *afraid* of it 
+Recognizing that I had these feelings, I thought I wouldn't do well in statistical physics and was *afraid* of it.
 That fear drove me to work really, really hard at it, and fortunately the subject and in particular Reif's book rewards that effort.
 Stat mech is, as my professor Doug Stone put it, the bridge between cute intro physics and real life adult physics.
 Stat mech allows us to understand the observable emergent phenomena of everyday life starting only from some basic physical laws and a set of amazingly physics-independent observations about counting.
@@ -91,7 +91,7 @@ The two GR books are good for GR as well, but they're here because their special
 
 * ***Fifty Challenging Problems in Probability with Solutions*** by F. Mosteller
 
-**1:** That said, I dobut most of us really approach our maximum possible life study time.
+**1:** That said, I doubt most of us really approach our maximum possible life study time.
 Even so, I think huge gains in educational efficiency can be found in choosing the right learning resources.
 
 **2:** Here's an excellent [first passage problem](http://puzzling.stackexchange.com/questions/6415/does-the-drunk-man-fall-off-the-cliff-a-random-walk-problem).
