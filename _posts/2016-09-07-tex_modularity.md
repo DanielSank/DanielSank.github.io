@@ -1,8 +1,10 @@
 ---
 title: Modularity in LaTeX
+excerpt: File organization and macros enabling modular design in LaTeX
 header:
-  image: header.png
+  overlay_image: header.png
 ---
+
 
 LaTeX is an excellent typsetting language.
 I use it for all my of my technical documentation both at work and at home.
