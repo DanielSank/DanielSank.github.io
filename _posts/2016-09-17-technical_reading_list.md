@@ -79,7 +79,7 @@ The two GR books are good for GR as well, but they're here because their special
 
 * ***Modern Quantum Mechanics*** by J. J. Sakurai
   * The angular momentum chapter is excellent.
-  * The perturbation theory chapters are also quite good. In particular, note the homework exercise asking how to do degenerate perturbation theory in the case that the perturbation does not life the degeneracy to first order.
+  * The perturbation theory chapters are also quite good. In particular, note the homework exercise asking how to do degenerate perturbation theory in the case that the perturbation does not lift the degeneracy to first order.
 
 * ***Quantum Mechanics*** by Eugene Merzbacher. Good reference for the driven harmonic oscillator, and other clear, mathematical developments of standard topics.
 
