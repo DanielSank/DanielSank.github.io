@@ -14,29 +14,30 @@ The Lorentz transformation equations are
 <div>
 \begin{align}
 t' &= \gamma \left( t - \frac{v x}{c^2} \right) \\
-x' &= \gamma \left( x - v t \right) \\
+x' &= \gamma \left( x - v t \right) \tag{1} \\
 \gamma &= \left( 1 - \left( \frac{v}{c} \right)^2 \right)^{-1} \, .
 \end{align}
 </div>
-However, many physicists, including book authors,, prefer to write them as
+However, many physicists, including book authors, prefer to write them as
 <div>
 \begin{align}
 t' &= \gamma \left( t - v x \right) \\
-x' &= \gamma \left( x - v t \right) \\
-\gamma &= \left( 1 - v^2 \right)^{-1} \, .
+x' &= \gamma \left( x - v t \right) \tag{2} \\
+\gamma &= \left( 1 - v^2 \right)^{-1} \, ,
 \end{align}
 </div>
 i.e. without the <span> $$c$$ </span>'s.
 The act of dropping the <span>$$c$$</span>'s is typically defended with a statement like
 <div>$$ \text{We work in units wherein }c=1 \, . $$</div>
-That statement is utter nonsense, and is an example of the phrase pattern I aim to utterly destroy in this post.
-
-The same nonsense appears in other branches of physics: for example, some authors take the Schrodinger equation
+That statement is utter nonsense.
+The same nonsense appears in other branches of physics: for example, some authors write the Schrodinger equation
 <div>
 $$i \hbar \frac{d}{d} \ket{\Psi(t)} = H \ket{\Psi(t)}$$
 </div>
-and rewrite it without the <span>$$\hbar$$</span>, as
-<div>$$i \frac{d}{dt} \ket{\Psi(t)} = H \ket{\Psi(t)} \, . $$</div>
+without the <span>$$\hbar$$</span>, as
+<div>$$i \frac{d}{dt} \ket{\Psi(t)} = H \ket{\Psi(t)} \, ,$$</div>
+with the statement that they've "set <span>$$\hbar=1$$</span>".
+
 
 ## Units and dimensions are different
 
@@ -54,18 +55,28 @@ We can specify my age in a particular unit: my age in years is 31.
 Note in particular that physical constants such as <span>$$\hbar, \, k_b,$$</span> and <span>$$c$$</span> have dimensions, but not units.
 Those constants do have particular numerical values once a set of units is chosen, but the constants themselves exist independently of any units.
 
+Take a look at the first line in Equations (2) where we have the phrase <span>$$t - vx$$</span>.
+That phrase looks like nonsense, because <span>$$t$$</span> has dimensions of time while <span>$$vx$$</span> has dimensions of length squared over time.
 
 
 ## Physics equations are not written "in units"
 
-Neither the Lortentz transformations, nor the Schrodinger equation, nor any other physics equation is  written in any particular set of units.
+Neither the Lortentz transformations, nor the Schrodinger equation, nor any other physics equation is usually written in any particular set of units.
 In the Lorentz transformations, <span>$$c$$</span> means "the speed of light", not e.g. "the speed of light in fathoms per fortnight".
 For this reason alone, it is utter nonsense to say that we write the Lortentz transformations or any other equations "*in units* where ...".
 
 
-## Physical constants do not have units
-
-As we already pointed out, physical constants don't have numerical values until a system of units is chosen, and since physics equations are not written "in units", we can't possibly say that we have some magic equation wherein <span>$$\hbar=1$$</span>.
+Now, we *could* redefine our symbols to actually mean the numerical values of physical quantities expressed in certain units.
+For example, we could choose a length unit of lightyear and a time unit of year, and then redefine our symbols as follows:
+<div>
+$$
+\begin{align}
+x:& \quad \text{length / 1 lightyear} \\
+v:& \quad \text{velocity / speed of light} \\
+t:& \quad \text{time / 1 year}
+\end{align}
+$$
+</div>
 
 
 ## So what's really going on?
