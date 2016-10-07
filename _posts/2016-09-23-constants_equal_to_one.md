@@ -28,18 +28,12 @@ x' &= \gamma \left( x - v t \right) \tag{2} \\
 </div>
 i.e. without the <span> $$c$$ </span>'s.
 The act of dropping the <span>$$c$$</span>'s is typically defended with a statement like
-<div>$$ \text{We work in units wherein }c=1 \, . $$</div>
-That statement is utter nonsense.
-The same nonsense appears in other branches of physics: for example, some authors write the Schrodinger equation
-<div>
-$$i \hbar \frac{d}{d} \ket{\Psi(t)} = H \ket{\Psi(t)}$$
-</div>
-without the <span>$$\hbar$$</span>, as
-<div>$$i \frac{d}{dt} \ket{\Psi(t)} = H \ket{\Psi(t)} \, ,$$</div>
-with the statement that they've "set <span>$$\hbar=1$$</span>".
-
+<div>$$ \text{We work in units wherein }c=1 \, . \tag{$$\star$$} $$</div>
+In this article, we will discuss why saying <span>$$c=1$$</span> is confusing, explain how to rationalize 
 
 ## Units and dimensions are different
+
+To me, the idea that we can
 
 A dimension is a kind of physical quantity such as length, time or charge.
 Quantities of the same dimension can be added, i.e. the distance from me to my strawberries can be added to the distance from my strawberries to the moon.
