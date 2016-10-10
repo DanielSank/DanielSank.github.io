@@ -1,5 +1,5 @@
 ---
-title: Stop saying you work in units where constants are equal to one.
+title: Physical constants are not equal to one
 excerpt: In which Dan rants about how to improve a common, but confusing, phrase.
 header:
   overlay_image: header.png
@@ -27,51 +27,61 @@ x' &= \gamma \left( x - v t \right) \tag{2} \\
 \end{align}
 </div>
 i.e. without the <span> $$c$$ </span>'s.
-The act of dropping the <span>$$c$$</span>'s is typically defended with a statement like
+Dropping the <span>$$c$$</span>'s is typically defended with a statement like
 <div>$$ \text{We work in units wherein }c=1 \, . \tag{$$\star$$} $$</div>
-In this article, we will discuss why saying <span>$$c=1$$</span> is confusing, explain how to rationalize 
+In this article, we will discuss why saying <span>$$c=1$$</span> is confusing, explain how to rationalize it.
 
-## Units and dimensions are different
+## Dimensions and units
 
-To me, the idea that we can
-
-A dimension is a kind of physical quantity such as length, time or charge.
+A dimension is a class of physical quantity, such as length, time or charge.
 Quantities of the same dimension can be added, i.e. the distance from me to my strawberries can be added to the distance from my strawberries to the moon.
-Quantities of different dimensions cannot be added, i.e. it is nonsense to add my age to my height.
+Quantities of different dimensions cannot be added, i.e. it doesn't make sense to add my age to my height.
 
-A unit is a granulation of a dimension.
-For example, one second is a unit of time.
-A quantity with the dimension of time can be measured in the units of seconds.
+In most cases, the symbols we see in physics equations represent quantities with dimensions.
+For example, in the Lorentz transformation equations, <span>$$c$$</span> has dimensions of velcity, i.e. length over time.
 
-Units and dimensions are completely different things.
-My age is a time, but my age doesn't have any particular units.
-We can specify my age in a particular unit: my age in years is 31.
-Note in particular that physical constants such as <span>$$\hbar, \, k_b,$$</span> and <span>$$c$$</span> have dimensions, but not units.
-Those constants do have particular numerical values once a set of units is chosen, but the constants themselves exist independently of any units.
+A unit is a granulation or "scale" of a dimension.
+For example, one second is a unit for the dimension of time.
 
-Take a look at the first line in Equations (2) where we have the phrase <span>$$t - vx$$</span>.
-That phrase looks like nonsense, because <span>$$t$$</span> has dimensions of time while <span>$$vx$$</span> has dimensions of length squared over time.
-
+Dimensions and units are different!
+The speed of light has dimensions of velocity, but it doesn't have any particular units.
+We can specify the numerical value of the speed of light in various units, e.g. the speed of light, in units of meters per second, is three hundred million.
+In math notation, that is
+<div>
+$$c = 3 \cdot 10^{8} \times \, \text{meter}/\text{second} \, .$$
+</div>
+While <span>$$c$$</span> has dimensions of velocity, we can define a new symbol
+<span>$$c_\text{m/s} \equiv_\phantom{a} c / (\text{meter / second})$$</span> which refers to the dimensionless number giving <span>$$c$$</span> in units of meters per second.
+We could say that <span>$$c_\text{m/s} \phantom{.}_\phantom{.}$$</span> is the speed of light written "in units of meters and seconds".
 
 ## Physics equations are not written "in units"
 
-Neither the Lortentz transformations, nor the Schrodinger equation, nor any other physics equation is usually written in any particular set of units.
-In the Lorentz transformations, <span>$$c$$</span> means "the speed of light", not e.g. "the speed of light in fathoms per fortnight".
-For this reason alone, it is utter nonsense to say that we write the Lortentz transformations or any other equations "*in units* where ...".
-
-
-Now, we *could* redefine our symbols to actually mean the numerical values of physical quantities expressed in certain units.
-For example, we could choose a length unit of lightyear and a time unit of year, and then redefine our symbols as follows:
+We usually think of the quantities in physics equations as things with dimensions.
+In the equation
+<div>
+$$t' = \gamma \left( t - vx/c^2 \right) \, ,$$
+</div>
+we think of <span>$$c$$</span> as a velocity, and <span>$$x$$</span> as a length.
+Therefore, it's awkward to talk about writing equations "in units".
+Now, we *could* do as described above and redefine our symbols to actually mean the numerical values of physical quantities expressed in certain units, and we *could* pick those units such that in those units ,the numerical value of <span>$$c$$</span> is 1.
+For example, we could choose a length unit of lightyear and a time unit of year, defining symbols:
 <div>
 $$
 \begin{align}
-x:& \quad \text{length / 1 lightyear} \\
-v:& \quad \text{velocity / speed of light} \\
-t:& \quad \text{time / 1 year}
+x_\text{ly} & \equiv x / \left( \text{1 lightyear} \right) \phantom{.}_\phantom{.} \\
+v_\text{ly/y} & \equiv v / \left( \text{1 lightyear / year} \right) = v / c \phantom{.}_\phantom{.} \\
+t_\text{y} & \equiv t / \left( \text{1 year} \right) \phantom{.}_\phantom{.} \\
+c_\text{ly/y} & \equiv c / \left(\text{1 lightyear / year} \right) = 1 \phantom{.}_\phantom{.}
 \end{align}
 $$
 </div>
-
+in which case the Lortenz transformation becomes
+<div>
+$$t'_\text{y} = \gamma \left( t_\text{y} - v_\text{ly/y} x_\text{ly} \right) \, .$$
+</div>
+This is the only possible way to arrive at a version of the Lorentz transformations in which the statement, that we're working "in units where <span>$$c=$$</span> 1" makes sense.
+However, we've done something really weird: our symbols are stand for dimensionless numbers instead of physical quantities with dimensions with no obvious route back to a fully dimensioned expression.
+The value of 
 
 ## So what's really going on?
 
