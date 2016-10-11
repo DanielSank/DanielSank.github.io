@@ -28,7 +28,7 @@ x' &= \gamma \left( x - v t \right) \tag{2} \\
 </div>
 i.e. without the <span> $$c$$ </span>'s.
 Dropping the <span>$$c$$</span>'s is typically defended with a statement like
-<div>$$ \text{We work in units wherein }c=1 \, . \tag{$$\star$$} $$</div>
+<div>$$ \text{We work in units wherein }c=1 \, . \tag{*}\phantom{*}$$</div>
 In this article, we will discuss why saying <span>$$c=1$$</span> is confusing, explain how to rationalize it.
 
 ## Dimensions and units
@@ -75,20 +75,19 @@ c_\text{ly/y} & \equiv c / \left(\text{1 lightyear / year} \right) = 1 \phantom{
 \end{align}
 $$
 </div>
-in which case the Lortenz transformation becomes
+in which case the Lorentz transformation becomes
 <div>
-$$t'_\text{y} = \gamma \left( t_\text{y} - v_\text{ly/y} x_\text{ly} \right) \, .$$
+$$t'_\text{y} = \gamma \left( t_\text{y} - v_\text{ly/y} x_\text{ly} \right) \, . \tag{3}$$
 </div>
-This is the only possible way to arrive at a version of the Lorentz transformations in which the statement, that we're working "in units where <span>$$c=$$</span> 1" makes sense.
-However, we've done something really weird: our symbols are stand for dimensionless numbers instead of physical quantities with dimensions with no obvious route back to a fully dimensioned expression.
-The value of 
-
-## So what's really going on?
-
-When we write the Schrodinger equation as in Equation (2), we've really *divided both sides of Equation (1) by* <span>$$\hbar$$</span> *and redefined* <span>$$H$$</span> to mean <span>$$H/\hbar$$</span>.
-
-
-## Saying that constants are equal to 1 is *very* confusing
+This is the only way I can think of to arrive at a version of the Lorentz transformations in which the statement, that we're working "in units where <span>$$c=$$</span> 1" makes sense.
+We've gotten rid of the <span>$$c$$</span>'s, but at a strange cost.
+Our symbols now stand for dimensionless numbers, the numerical part of the various physical quantities expressed in a particular system of units.
+There's nothing wrong with this in principle; it's perfectly reasonable to write equations involving numbers.
+However, I find thinking of physics equations as relations between numbers confusing because numbers lack structure.
+For example, suppose we'd like to get an idea of how <span>$$t'$$</span> depends on the speed of light.
+Starting from Equation (3), we reason as follows:
+* If the speed of light increases by a factor of <span>$$a$$</span>, then the distance light travels in a year increases by <span>$$a$$</span>.
+Therefore, the "ly" unit is larger, so for a given length <span>$$x$$</span>, the *number* <span>$$x_\text{ly}$$</span> is lower by a factor of <span>$$a$$</span>.<span>$$\phantom{.}_phantom{.}
 
 
 ## There is a case where we write equations "in units"
