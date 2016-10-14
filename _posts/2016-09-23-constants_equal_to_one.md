@@ -82,13 +82,16 @@ $$t'_\text{y} = \gamma \left( t_\text{y} - v_\text{ly/y} x_\text{ly} \right) \, 
 This is the only way I can think of to arrive at a version of the Lorentz transformations in which the statement, that we're working "in units where <span>$$c=$$</span> 1" makes sense.
 We've gotten rid of the <span>$$c$$</span>'s, but at a strange cost.
 Our symbols now stand for dimensionless numbers, the numerical part of the various physical quantities expressed in a particular system of units.
-There's nothing wrong with this in principle; it's perfectly reasonable to write equations involving numbers.
-However, I find thinking of physics equations as relations between numbers confusing because numbers lack structure.
+There's nothing wrong with this in principle; it's perfectly reasonable to write equations involving numbers, but I find thinking of physics equations as relations between numbers confusing because numbers lack structure.
 For example, suppose we'd like to get an idea of how <span>$$t'$$</span> depends on the speed of light.
 Starting from Equation (3), we reason as follows:
-* If the speed of light increases by a factor of <span>$$a$$</span>, then the distance light travels in a year increases by <span>$$a$$</span>.
-Therefore, the "ly" unit is larger, so for a given length <span>$$x$$</span>, the *number* <span>$$x_\text{ly}$$</span> is lower by a factor of <span>$$a$$</span>.<span>$$\phantom{.}_phantom{.}
 
+* If the speed of light increases by a factor of <span>$$a$$</span>, then the distance light travels in a year increases by <span>$$a$$</span>.
+Therefore, the "ly" unit is larger, so for a given length <span>$$x$$</span>, the *number* <span>$$x_\text{ly}$$</span> is lower by a factor of <span>$$a$$</span>.<span>$$\phantom{.}_\phantom{.}$$</span>
+
+* By similar reasoning, <span>$$v_\text{ly/y}$$</span> is reduced by a factor of <span>$$a$$</span>.
+
+* Therefore, 
 
 ## There is a case where we write equations "in units"
 
