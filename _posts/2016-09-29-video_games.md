@@ -1,13 +1,21 @@
 ---
 title: My favorite video games
-excerpt: Isolated single player 
+excerpt: From brooding, single player meditations, to the most beautiful and complex duel.
 header:
   overlay_image: header.png
 ---
 
+In this post, I describe a few of my favorite video games and why I like them.
+Why?
+Well, video games are a cross between a game, a work of art, and in some cases even a sport.
+We gravitate toward and remember video games for their music, their visual styles, and in many cases for their narratives, so I think discussing ones favorite video games is similar to discussing ones favorite musical compositions etc.
+Also, they're fun.
+
+
 ## Super Metroid
 
-Super Metroid is my favorite game ever.
+Super Metroid is my favorite game.
+
 
 * Immersive
   * Labyrinth
