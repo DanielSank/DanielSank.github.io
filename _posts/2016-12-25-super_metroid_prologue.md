@@ -11,12 +11,14 @@ Many of the reasons I love this game can be explained by examining the game's fi
 # The prologue
 
 *Super Metroid* begins with the protagonist, Samus Aran, exposing the backstory via text monologue interspersed with cutscenes.
-[Check it out for yourself](https://www.youtube.com/watch?v=LAXTRZgmleY), and then come back here for discussion.
+<iframe src="https://www.youtube.com/embed/LAXTRZgmleY?rel=0&showinfo=0"></iframe>
+
+Check it out for yourself, and then come back here for discussion.
 
 # Show, don't tell
 
 I love this prologue because so much aesthetic style and characterization are established quickly while relentlessly developing the plot.
-Within a minute, Samus's summary of the previous two Metroid games shows us that she's a efficient, ruthless hunter who took down a galactic threat, but also that she's not beyond mercy.
+Within a minute, Samus's summary of the previous two Metroid games shows us that she's an efficient, ruthless hunter who took down a galactic threat, but also that she's not beyond mercy.
 The efficiency and ruthlessness come out in the first cutscene wherein Samus kills Mother Brain, and in her narratation of the genocide she enacted on SR388.
 The aesthetics of that narration, the green text clicked out onto the screen at a robotically even tempo on top of a shadowed portrait of Samus, her face half shrouded behind her helmet, fit the message perfectly.
 Then, in the second cutscene, Samus finds the larva; she points her cannon at it, hesitates, and ultimatly allows the larva to follow her.
