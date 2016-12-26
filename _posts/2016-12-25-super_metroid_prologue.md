@@ -43,7 +43,7 @@ Now, with Samus's narration, actions you already made in the past are given a vo
 
 # Close your eyes
 
-Go back to the beginning of the prologue and watch again, this time with your eyes closed, and listen through that first minute.
+Replay the prologue with your eyes closed, and listen through that first minute.
 You may not have even noticed the music the first time, and that's what makes *Super Metroid's* sound so great: it is inseparable from the rest of the game.
 Notice how visceral is the sound of the larva hatching, and how far reaching seem the synthesized choral voices.
 You're only a minute into this game and you can hear that you're in the midst of a space opera.
