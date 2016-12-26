@@ -13,7 +13,7 @@ Many of the reasons I love this game can be explained by examining the game's fi
 *Super Metroid* begins with the protagonist, Samus Aran, exposing the backstory via text monologue interspersed with cutscenes.
 <iframe src="https://www.youtube.com/embed/LAXTRZgmleY?rel=0&showinfo=0"></iframe>
 
-Check it out for yourself, and then come back here for discussion.
+Check it out for yourself.
 
 # Show, don't tell
 
