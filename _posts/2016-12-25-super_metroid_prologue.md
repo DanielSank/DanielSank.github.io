@@ -1,6 +1,7 @@
 ---
 title: The Prologue of *Super Metroid*
 excerpt: How the first minute sets the standard of my favorite video game
+comments: true
 header:
   overlay_image: header.png
 ---
