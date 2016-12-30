@@ -18,7 +18,7 @@ As we go along, we'll see code listings illustrating each point.
 At the beginning of each listing you will find a download link for a zip archive containing a complete working example.
 
 This is a pretty long post.
-To skip the pedagogical development and get to the "final answer", see [the modularity demo in my TeXtricks github repo](https://github.com/DanielSank/TeXtricks/tree/master/modularity-demo).
+To skip the pedagogical development and get to the "final answer", along with the actual package I submitted to CTAN, see [the source repo](https://github.com/DanielSank/tex-modular/tree/master).
 
 Consider a short article about octopuses ([example A][1])
 
