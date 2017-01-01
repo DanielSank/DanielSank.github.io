@@ -8,6 +8,7 @@ comments: true
 
 # Introduction
 
+Suppose you have `N` beans, half black and half white.
 * Line of beans
 
 * Number of ways of being, given a description
