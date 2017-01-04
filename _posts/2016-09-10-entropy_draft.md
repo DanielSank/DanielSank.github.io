@@ -14,32 +14,32 @@ Suppose we have a coin which, when flipped, has a probability <span>$$p$$</span>
 We flip the coin ten times and ask how likely it is that the first five results are heads and the last five are tails.
 Representing heads with `X` and tails with `O`, we're asking for the probability of the sequence
 
-```
-XXXXXOOOOO  (I)
-```
+<div>$$
+\text{XXXXXOOOOO} \qquad \text{(I)}
+$$</div>
 
 We might think that this arrangment is pretty unlikely.
 Let's compare to another sequence:
 
-```
-XXOOOXOXXO  (II)
-```
+<div>$$
+\text{XXOOOXOXXO} \qquad \text{(II)}
+$$</div>
 
-Sequence `II` might look a bit more random, so we might think that it's more likely than sequence `I`.
-However, sequences `I` and `II` are actually equally (un)likely.
+Sequence II might look a bit more random, so we might think that it's more likely than sequence I.
+However, sequences I and II are actually equally (un)likely.
 
-Consider sequence `I`.
-In either case, the probability of the first coin flip being `X` is <span>$$p$$</span>, as is the probability of the second, third, four, and fifth flip.
+Consider sequence I.
+The probability of the first coin flip being `X` is <span>$$p$$</span>, as is the probability of the second, third, four, and fifth flip.
 Therefore, the probability of the first five flips giving `XXXXX` is <span>$$p^5$$</span>.
-Similarly, the probability of the second five flips giving `OOOOO` is <span>$$q^5$$</span>, so the probability of sequence `I` is <span>$$p^5 q^5$$</span>.
+Similarly, the probability of the second five flips giving `OOOOO` is <span>$$q^5$$</span>, so the probability of sequence I is <span>$$p^5 q^5$$</span>.
 
-Now consider sequence `II`.
-Just like sequence `I`, each `X` ocurrs with probability <span>$$p$$</span> and each `O` ocurrs with probability <span>$$q$$</span>, so the probability of the sequence is again <span>$$p^5 q^5$$</span>.
+Now consider sequence II.
+Just like sequence I, each `X` ocurrs with probability <span>$$p$$</span> and each `O` ocurrs with probability <span>$$q$$</span>, so the probability of the sequence is again <span>$$p^5 q^5$$</span>.
 
 The two sequences are equally probable!
 The only thing affecting the probabilities here is the number of `X`'s and `O`'s; the order doesn't matter.
 
-Interestingly, sequence `I` looks somehow "more organized" than `II`, and as such we might expect it to have had a lower probability.
+Interestingly, sequence I looks somehow "more organized" than II, and as such we might expect it to have had a lower probability.
 
 # Probability of a class of sequences
 
